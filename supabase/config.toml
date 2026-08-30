@@ -1,0 +1,5 @@
+project_id = "salespilot-ai"
+
+[functions.analyze-conversation]
+verify_jwt = true
+entrypoint = "./functions/analyze-conversation/index.ts"
